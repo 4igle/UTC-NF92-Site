@@ -1,0 +1,213 @@
+body
+{
+  overflow-y: hidden;
+}
+
+div.ajout_eleve
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+div.ajout_theme
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+fieldset.ajout_eleve
+{
+  margin-top: -6em;
+}
+
+fieldset.ajout_eleve, fieldset.ajout_theme
+{
+  background-color: white
+}
+
+td
+{
+  width: 250px;
+  /*border: red 2px solid;*/
+}
+
+.center
+{
+  text-align: center;
+}
+
+.center_m
+{
+  text-align: center;
+  margin-top: 0;
+}
+
+input.nom_theme
+{
+  width: 230px;
+}
+
+textarea
+{
+  min-width: 470px;
+  max-width: 470px;
+  min-height: 230px;
+  max-height: 230px;
+  padding: 20px;
+}
+
+h1.titre
+{
+  text-align: center;
+}
+
+input.naissance
+{
+  width: 91%;
+}
+
+input.eleve
+{
+  width: 91%;
+}
+
+input.bouton
+{
+  width: 100%;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+*
+{
+  font-family: arial, sans-serif;
+}
+
+div.menu
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.menu_bord
+{
+  border: 1px #DDDDDD solid;
+  border-radius: 10px;
+  height: 98vh
+}
+
+div.accueil, div.plus
+{
+  border: 1px #D0D0D0 solid;
+  margin: 40px;
+  width: 85%;
+  border-radius: 10px;
+}
+
+div.lien_accueil, div.titre_plus
+{
+  background-color: #F5F5F5;
+  border-radius: 10px 10px 0 0;
+}
+
+div.titre_menu
+{
+  background-color: #F5F5F5;
+  border-bottom: 1px #D0D0D0 solid;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+
+div.lien_accueil, div.titre_plus, div.elements_acceuil_1
+{
+  border-bottom: 1px #D0D0D0 solid;
+  padding: 15px;
+}
+
+div.elements_acceuil_2, div.elements_plus
+{
+  padding: 15px;
+}
+
+div.voiture_accueil
+{
+  margin-top: 50px;
+}
+
+p.voiture_accueil
+{
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 1.4em;
+}
+
+input.full, select.full
+{
+  width: 100%;
+}
+
+input.almost_full
+{
+  width: 98%;
+}
+
+div.scroll
+{
+  height: auto;
+  max-height: 500px;
+  padding: 30px;
+  background-color: white;
+  border: 1px rgb(230, 230, 230) solid;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none; /*cacher la scrollbar sous firefox*/
+}
+
+div.scroll::-webkit-scrollbar /*cacher la scrollbar sous chrome*/
+{
+    display: none;
+}
+
+div.traitement
+{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.traitement_contenu
+{
+  border: 2px gray solid;
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+  width: auto;
+  max-width: 800px;
+  overflow: hidden;
+}
+
+div.aligner
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.AM
+{
+  margin-bottom: -50px;
+}

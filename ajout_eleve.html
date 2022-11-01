@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ajoutez un élève</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fond.css">
+  </head>
+  <body>
+    <h1>AUTO MOTO</h1>
+    <div class="ajout_eleve">
+      <fieldset class="ajout_eleve">
+        <h1 class="titre">Ajoutez un élève</h1>
+        <form action="valider_eleve.php" method="post">
+          <table>
+            <tr>
+              <td>Nom : </td>
+              <td><input type="text" name="nom" placeholder="Ex : Pierre" required class="eleve"></td>
+            </tr>
+            <tr>
+              <td>Prénom : </td>
+              <td><input type="text" name="prenom" placeholder="Ex : Jean" required class="eleve"></td>
+            </tr>
+            <tr>
+              <td>Date de naissance : </td>
+              <td><input type="date" name="naissance" required class="naissance"></td>
+            </tr>
+            <tr>
+              <td><input type="submit" class="bouton"></td>
+              <td><input type="reset" class="bouton"></td>
+            </tr>
+          </table>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

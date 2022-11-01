@@ -1,0 +1,26 @@
+/* Fichier css supplémentaire pour mettre des images de fond semi transparentes,
+il est à part pour ne pas affecter menu.html */
+
+body
+{
+  /*background: url(voiture.png) no-repeat 400px 350px, url(moto.png) no-repeat -50px 270px;*/
+  background: url(voiture.png) no-repeat right bottom, url(moto.png) no-repeat bottom left; /*600 450 voiture 0 370 moto */
+  background-size: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body:before
+{
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-color: rgba(255, 255, 255, 0.7);
+}
